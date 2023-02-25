@@ -15,14 +15,14 @@ for (let divInnerEl = 1; divInnerEl <= 100; divInnerEl++) {
 
     if (divInnerEl % 3 == 0) {
         newdivEl.style.backgroundColor = `red`;
-        newdivEl.innerHTML = `fizz`
+        newdivEl.innerHTML = `fizz`;
     } else if (divInnerEl % 5 == 0) {
         newdivEl.style.backgroundColor = `blue`;
-        newdivEl.innerHTML = `bizz`
+        newdivEl.innerHTML = `bizz`;
     }
 
     if (divInnerEl % 3 == 0 && divInnerEl % 5 == 0) {
         newdivEl.style.backgroundColor = `purple`;
-        newdivEl.innerHTML = `fizzbizz`
+        newdivEl.innerHTML = `fizzbizz`;
     }
 }
